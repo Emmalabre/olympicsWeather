@@ -1,0 +1,27 @@
+Package: olympicsWeather
+Title: olympicsWeather
+Version: 0.0.0.9000
+Authors@R: 
+    person("Emma", "Labre-Blanc", , "emmalabreblanc@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Une librairie R pour obtenir des prévisions météorologiques et visualiser les données associées.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Collate:
+    'get_forecast.R'
+    'visualiser_forecast_h.R'
+    'visualiser_forecast_d.R'
+Imports:
+    httr2,
+    jsonlite,
+    devtools,
+    tibble,
+    tidygeocoder,
+    dplyr,
+    ggplot2,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
